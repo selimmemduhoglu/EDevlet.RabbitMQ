@@ -80,7 +80,7 @@ namespace EDevlet.DokumentCreator
         {
             var connectionFactory = new ConnectionFactory()
             {
-                Uri = new Uri("amqps://evrdybgg:TQLBLVPPb7_OR1qBR3hajFa7ncOrB_HM@fish.rmq.cloudamqp.com/evrdybgg")   // connection txt den alınıyor.
+                Uri = new Uri("amqps://guest:guest@localhost:5672")   // connection txt den alınıyor.
             };
 
             return connectionFactory.CreateConnection();
@@ -100,3 +100,4 @@ namespace EDevlet.DokumentCreator
         }
     }
 }
+1
